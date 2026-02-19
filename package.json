@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-json-to-toon",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "n8n nodes for converting between JSON and TOON (Token-Oriented Object Notation) format",
   "keywords": [
     "n8n",
@@ -19,8 +19,8 @@
     "type": "git",
     "url": "https://github.com/tu-usuario/n8n-nodes-json-to-toon.git"
   },
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/nodes/JsonToToon.node.js",
+  "types": "dist/nodes/JsonToToon.node.d.ts",
   "scripts": {
     "build": "tsc && gulp build:icons",
     "dev": "tsc --watch",
@@ -33,8 +33,8 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "nodes": [
-      "dist/nodes/JsonToToon/JsonToToon.node.js",
-      "dist/nodes/ToonToJson/ToonToJson.node.js"
+      "dist/nodes/JsonToToon.node.js",
+      "dist/nodes/ToonToJson.node.js"
     ],
     "credentials": []
   },

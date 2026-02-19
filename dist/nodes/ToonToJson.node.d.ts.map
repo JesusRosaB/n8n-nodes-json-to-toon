@@ -1,0 +1,1 @@
+{"version":3,"file":"ToonToJson.node.d.ts","sourceRoot":"","sources":["../../nodes/ToonToJson.node.ts"],"names":[],"mappings":"AAAA,OAAO,EACL,iBAAiB,EACjB,kBAAkB,EAClB,SAAS,EACT,oBAAoB,EAErB,MAAM,cAAc,CAAC;AAsHtB,qBAAa,UAAW,YAAW,SAAS;IAC1C,WAAW,EAAE,oBAAoB,CAsF/B;IAEI,OAAO,CAAC,IAAI,EAAE,iBAAiB,GAAG,OAAO,CAAC,kBAAkB,EAAE,EAAE,CAAC;CA+CxE"}
